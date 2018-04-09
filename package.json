@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-webview-no-suggestions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebView without text suggestions shown on software keyboad for Android",
   "main": "index.js",
   "repository": {
@@ -21,6 +21,5 @@
   "peerDependencies": {
     "react-native": ">= 0.47.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
