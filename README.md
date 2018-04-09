@@ -1,6 +1,6 @@
 # React Native Android WebView With No Suggestions
 
-This custom WebView hides text suggetions whtn the input method is latin (English) on Android.
+This custom WebView hides text suggetions when the input method is latin (English) on Android.
 
 ## Getting started
 
