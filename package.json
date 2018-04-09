@@ -1,0 +1,26 @@
+{
+  "name": "react-native-android-webview-no-suggestions",
+  "version": "1.0.0",
+  "description": "WebView without text suggestions shown on software keyboad for Android",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/craftzdog/react-native-android-webview-no-suggestions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/craftzdog/react-native-android-webview-no-suggestions/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Takuya Matsuyama <hi@craftz.dog>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">= 0.47.0"
+  },
+  "dependencies": {
+  }
+}
