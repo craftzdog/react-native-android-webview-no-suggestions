@@ -7,7 +7,13 @@ export default class CDWebView extends Component {
 
   render() {
     return (
-      <WebView {...this.props} nativeConfig={{component: RCTCustomWebView}} />
+      <WebView
+        {...this.props}
+        ref={el => {
+          this.injectJavaScript = el.injectJavaScript.bind(el)
+        }}
+        nativeConfig={{component: RCTCustomWebView}}
+      />
     );
   }
 }
