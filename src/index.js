@@ -5,13 +5,15 @@ import {WebView, requireNativeComponent} from 'react-native';
 export default class CDWebView extends Component {
   static propTypes = WebView.propTypes;
 
+  componentDidMount () {
+    this.injectJavaScript = this.webView.injectJavaScript.bind(this.webView)
+  }
+
   render() {
     return (
       <WebView
         {...this.props}
-        ref={el => {
-          this.injectJavaScript = el.injectJavaScript.bind(el)
-        }}
+        ref={el => this.webView = el}
         nativeConfig={{component: RCTCustomWebView}}
       />
     );
