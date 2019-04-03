@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import {WebView, requireNativeComponent} from 'react-native';
+import { requireNativeComponent } from 'react-native'
+import { WebView } from 'react-native-webview'
 
 export default class CDWebView extends Component {
   static propTypes = WebView.propTypes;
